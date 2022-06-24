@@ -1,0 +1,25 @@
+9. Move funcode/kids.jpg inside funcode/images/hello/
+        mv kids.jpg images/hello/
+
+10. Remove the “small-name“ directory.
+        rm -r small-name/
+
+11. Print in the command line the content of the-ultimate-joke.txt.
+        more the-ultimate-joke.txt
+        what do you call a programmer from Findland? ..... NERDIC!
+
+        Got it?? :)
+
+12. Remove all the contents from the boringfolder, they are extremely boring…
+        rm breathecode.shadow.png css3.png hello.txt js.png scale.fix.js c9.png html5.png sass.png
+        rm -r event-more-boring/
+
+13.Open the file kamehameha/dragon-ball-jokes.md using the VI command line text editor
+        vi dragon-ball-jokes.md
+
+14.Update the file kamehameha/dragon-ball-jokes.md by removing the first joke you read on the file, finally save and close the text editor.
+vi dragon-ball-jokes.md
+        -- delete removing the first joke you read on the file--
+        dd
+        :wq
+
