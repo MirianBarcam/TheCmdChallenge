@@ -1,0 +1,52 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: gainsboro;
+    font-family: 'Lato', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.title_header {
+    font-size: 3vw;
+}
+
+.number_card {
+    font-size: 1vw;
+    color: cadetblue;
+}
+
+
+
+.card {
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.header_card {
+    display: flex;
+    flex: row;
+    align-items: center;
+    height: 3vw;
+    font-size: 2vw;
+}
+
+.title_card {
+    margin-left: 1vw;
+    width: 100%;
+}
+
+.image_card {
+    width: 100%;
+}
+
+
+
+* {
+    border: 1px solid red;
+}
